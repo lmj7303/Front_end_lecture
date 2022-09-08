@@ -23,9 +23,3 @@ function fibo(n) {
 }
 for (let i=0; i<10; i++)
     console.log(fibo(i));
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
