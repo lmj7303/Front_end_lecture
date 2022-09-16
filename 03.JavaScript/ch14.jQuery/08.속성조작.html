@@ -7,11 +7,12 @@
     <title>속성 조작</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('img').attr('src','https://picsum.photos/640/360');
-            $('<hr/>').appendTo('body');
-            for (let i=1; i<3; i++){
+        $(document).ready(function() {
+            $('img').attr('src', 'https://picsum.photos/640/360');
+            $('<hr></hr>').appendTo('body');
+            for (let i=1; i<=3; i++) {
                 $('<img></img>')
+                    .css('margin','5px')
                     .attr('src','https://via.placeholder.com/'+i*200+'x200')
                     .appendTo('body');
             }
