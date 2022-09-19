@@ -1,17 +1,14 @@
 //Q1.두개의 값이 다른 정수를 매개변수로 받아 두수 중 작은 수부터 +3씩 증가시켜서 배열로 만들어 반환하는 함수 ans1(num1,num2)를 만드세요. 
 //단, 배열에는 매개변수의 큰 수보다 더 큰수는 포함될수 없다. 또한 이 함수를 검증하는 코드, 즉 ans1(2,10)과 ans1(12,3)을 출력하는 코드도 만드시오.
-// function ans1(num1,num2){
-//     var ans1=[];
-//     if (num1 >num2;){
-//     num1=num1+3;
-//     ans1.push(num1);
-//     i++;
-//     } else {
-//             break
-//     }
-// }
-// ans1(2,10);
-// ans1(12,3)
+function ans1(num1,num2){
+    let small=(num1<num2)?num1:num2;
+    let big=(num1>num2)?num1:num2;
+    let result=[];
+    for (i=small;i<=big;i+=3){
+        result.push(i);
+    }
+    return 
+}
 
 //Q2.'991205'와 같이 년월일 6자리 문자를 매개변수로 받아 만 나이를 반환하는 함수 ans2(birthday)를 만드세요. 또한 이 함수를 검증하는 코드, 
 //즉 ans2('991003')과 ans2('000919')의 결과를 출력하는 코드도 만드세요.
