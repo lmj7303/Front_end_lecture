@@ -1,0 +1,8 @@
+npx create-react-app
+
+npm start
+
+cd .. 경로 뒤로가기
+
+cd . 현재 경로
+
